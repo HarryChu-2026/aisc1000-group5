@@ -1,0 +1,7 @@
+node_modules/
+.next/
+.next-smoke-*/
+.env*
+!.env.example
+*.tsbuildinfo
+.vercel/

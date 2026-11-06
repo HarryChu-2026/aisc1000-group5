@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 205 36% 12%;
+  --primary: 210 100% 20%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 200 12% 97%;
+  --muted-foreground: 205 12% 40%;
+  --border: 205 18% 86%;
+  --ring: 208 55% 38%;
+  --radius: 0.5rem;
+}
+
+body {
+  @apply bg-page font-sans text-ink;
+}
+
+:focus-visible {
+  @apply outline outline-2 outline-offset-2 outline-link;
+}
